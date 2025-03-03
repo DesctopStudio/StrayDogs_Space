@@ -1,0 +1,10 @@
+/* The fonts found in the root folder 'orbitron' */
+@font-face {
+    font-family: orbitron;
+    src: url("../orbitron/Orbitron_Black.ttf");
+    src: url("../orbitron/Orbitron_Bold.ttf");
+    src: url("../orbitron/Orbitron_Light.ttf");
+    src: url("../orbitron/Orbitron_Medium.ttf");
+}
+
+/* Any other styling should be removed from the .html files and moved here */
