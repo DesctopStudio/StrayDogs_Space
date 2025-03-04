@@ -14,9 +14,9 @@ h1{
 p{
     font-family: "Funnel Sans", serif;
 }
-/* Alliance Auth button stylings*/
+/* Alliance Auth button1 stylings*/
 .button1 {
-  background-color: rgba(222, 166, 70, 0);
+  background-color: rgba(102, 80, 54, 0.91);
   border: 0;
   border-radius: .1rem;
   box-sizing: border-box;
@@ -37,7 +37,7 @@ p{
 }
 
 .button1:hover {
-  background-color: rgba(249, 250, 251, 0);
+  background-color: rgba(102, 80, 54, 0.45);
 }
 
 .button1:focus {
@@ -48,9 +48,9 @@ p{
 .button1:focus-visible {
   box-shadow: none;
 }
-/* Discord Button stylings */
+/* Discord button2 stylings */
 .button2 {
-  background-color: rgba(222, 166, 70, 0);
+  background-color: rgba(102, 80, 54, 0.91);
   border: 0;
   border-radius: .1rem;
   box-sizing: border-box;
@@ -71,7 +71,7 @@ p{
 }
 
 .button2:hover {
-  background-color: rgba(249, 250, 251, 0);
+  background-color: rgba(102, 80, 54, 0.45);
 }
 
 .button2:focus {
@@ -81,4 +81,23 @@ p{
 
 .button2:focus-visible {
   box-shadow: none;
+}
+/* parent1 in-line blocking for Discord and Alliance Auth buttons */
+.parent1 {
+  border: 1px solid rgba(0, 0, 0, 0);
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.child1 {
+  display: inline-block;
+  border: .5px solid rgba(0, 0, 0, 0);
+  padding: .5rem .5rem;
+  vertical-align: middle;
+}
+.child2 {
+  display: inline-block;
+  border: .5px solid rgba(0, 0, 0, 0);
+  padding: .5rem .5rem;
+  vertical-align: middle;
 }
