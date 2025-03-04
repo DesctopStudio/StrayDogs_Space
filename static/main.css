@@ -14,3 +14,71 @@ h1{
 p{
     font-family: "Funnel Sans", serif;
 }
+/* Alliance Auth button stylings*/
+.button1 {
+  background-color: rgba(222, 166, 70, 0);
+  border: 0;
+  border-radius: .1rem;
+  box-sizing: border-box;
+  color: rgb(222, 166, 70);
+  font-family: "Source Code Pro",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none rgba(209, 213, 219, 0) solid;
+  text-decoration-thickness: auto;
+  box-shadow: none;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button1:hover {
+  background-color: rgba(249, 250, 251, 0);
+}
+
+.button1:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button1:focus-visible {
+  box-shadow: none;
+}
+/* Discord Button stylings */
+.button2 {
+  background-color: rgba(222, 166, 70, 0);
+  border: 0;
+  border-radius: .1rem;
+  box-sizing: border-box;
+  color: rgb(222, 166, 70);
+  font-family: "Source Code Pro",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none rgba(209, 213, 219, 0) solid;
+  text-decoration-thickness: auto;
+  box-shadow: none;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button2:hover {
+  background-color: rgba(249, 250, 251, 0);
+}
+
+.button2:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button2:focus-visible {
+  box-shadow: none;
+}
