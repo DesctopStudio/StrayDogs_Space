@@ -1,0 +1,16 @@
+/* Background image for the webpage pulled from static folder */
+body{
+    background-image: url("/static/fort_front.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* h1 text in the body of index.html will use the linked font */
+h1{
+    font-family: "Source Code Pro", serif;
+}
+/* p text in the body of index.html will use the linked font */
+p{
+    font-family: "Funnel Sans", serif;
+}
