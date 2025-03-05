@@ -6,6 +6,15 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+/* Image for the stray logo */
+.centered_logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.round {
+  border-radius: 50%;
+}
 /* h1 text in the body of index.html will use the linked font */
 h1{
     font-family: "Source Code Pro", serif;
@@ -16,11 +25,11 @@ p{
 }
 /* Alliance Auth button1 stylings*/
 .button1 {
-  background-color: rgba(102, 80, 54, 0.91);
+  background-color: rgb(48, 40, 63);
   border: 0;
   border-radius: .1rem;
   box-sizing: border-box;
-  color: rgb(222, 166, 70);
+  color: rgb(182, 203, 213);
   font-family: "Source Code Pro",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   font-size: .875rem;
   font-weight: 600;
@@ -37,7 +46,7 @@ p{
 }
 
 .button1:hover {
-  background-color: rgba(102, 80, 54, 0.45);
+  background-color: rgba(29, 23, 39, 0.45);
 }
 
 .button1:focus {
@@ -50,11 +59,11 @@ p{
 }
 /* Discord button2 stylings */
 .button2 {
-  background-color: rgba(102, 80, 54, 0.91);
+  background-color: rgb(48, 40, 63);
   border: 0;
   border-radius: .1rem;
   box-sizing: border-box;
-  color: rgb(222, 166, 70);
+  color: rgb(182, 203, 213);
   font-family: "Source Code Pro",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   font-size: .875rem;
   font-weight: 600;
@@ -71,7 +80,7 @@ p{
 }
 
 .button2:hover {
-  background-color: rgba(102, 80, 54, 0.45);
+  background-color: rgba(29, 23, 39, 0.45);
 }
 
 .button2:focus {
@@ -91,13 +100,13 @@ p{
 }
 .child1 {
   display: inline-block;
-  border: .5px solid rgba(0, 0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0);
   padding: .5rem .5rem;
   vertical-align: middle;
 }
 .child2 {
   display: inline-block;
-  border: .5px solid rgba(0, 0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0);
   padding: .5rem .5rem;
   vertical-align: middle;
 }
